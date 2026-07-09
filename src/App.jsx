@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
-import Projects from './components/Projects'
+import Projects from './components/projects'
 import './App.css'
 import ContactForm from './components/contactform'
 import Education from './components/education'
