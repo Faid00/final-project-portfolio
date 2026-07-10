@@ -6,6 +6,7 @@ import ContactForm from './components/contactform'
 import Education from './components/education'
 import Admin from './components/admin'
 import Login from './components/login'
+import Terminal from './components/terminal'
 
 function App() {
   const [isPhoneView, setIsPhoneView] = useState(false)
@@ -44,6 +45,8 @@ function App() {
               with a focus on clean, functional design.
             </p>
             <a href="#projects" className="cta-button">./view_projects</a>
+            <a href="https://github.com/Faid00/final-project-portfolio" target="_blank" rel="noopener noreferrer" className="cta-button">./view_source_code</a>
+            <Terminal />
           </section>
 
           <section id="about">
