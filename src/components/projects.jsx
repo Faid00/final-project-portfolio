@@ -8,7 +8,7 @@ function Projects() {
   useEffect(() => {
     async function fetchProjects() {
       try {
-        const res = await fetch('http://localhost:5000/api/projects')
+        const res = await fetch('http://final-project-backend-env.eba-wffgrtjp.ap-southeast-2.elasticbeanstalk.com/api/projects') 
         if (!res.ok) throw new Error('Failed to fetch projects')
         const data = await res.json()
         setProjects(data)

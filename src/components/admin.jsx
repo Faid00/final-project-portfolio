@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const API_URL = 'http://localhost:5000/api/projects'
+const API_URL = 'http://final-project-backend-env.eba-wffgrtjp.ap-southeast-2.elasticbeanstalk.com/api/projects'
 
 const emptyForm = {
   title: '',
